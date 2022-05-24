@@ -31,6 +31,7 @@
 }
 
 .blogAuthor {
+  margin-top: 1rem;
   text-align: end;
 }
 
@@ -49,17 +50,18 @@
 }
 
 .editBlog p {
-  text-align: end;
   padding: 0.5rem;
+  text-align: end;
 }
 
 .editBlogTitle {
+  height: 3rem;
   padding: 0.5rem 2rem;
 }
 
 .editBlogDescription {
-  padding: 0.5rem 2rem;
   height: 10rem;
+  padding: 0.5rem 2rem;
 }
 
 .saveEdit {
