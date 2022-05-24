@@ -1,5 +1,11 @@
+.postsHeadline {
+  text-align: center;
+  font-weight: bolder;
+  margin-top: 1rem;
+}
+
 .post {
-  margin: 0 auto;
+  margin: 3rem auto auto;
   text-align: start;
   width: 80%;
 }

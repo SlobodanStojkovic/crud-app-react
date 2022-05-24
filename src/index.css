@@ -2,8 +2,23 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 p {
   margin: 0;
+}
+
+hr:not([size]) {
+  height: 1px;
+}
+
+hr {
+  background-color: currentColor;
+  border: 0;
+  color: inherit;
+  margin: 1rem 0;
+  opacity: 0.25;
 }

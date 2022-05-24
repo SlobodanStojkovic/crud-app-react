@@ -12,11 +12,11 @@ export const Home = () => {
 
   return (
     <main>
-      <h1 className="text-center fw-bolder mt-3">POSTS</h1>
+      <h1 className="postsHeadline">POSTS</h1>
       {blogs.map((blog, index) => (
-        <div className="post mt-5" key={index}>
+        <div className="post" key={index}>
           <Link to={`/details/${blog.id}`}>
-            <h5 id={blog.id}>{blog.title}</h5>
+            <h3 id={blog.id}>{blog.title}</h3>
             <p>{blog.body}</p> <hr></hr>
           </Link>
         </div>
