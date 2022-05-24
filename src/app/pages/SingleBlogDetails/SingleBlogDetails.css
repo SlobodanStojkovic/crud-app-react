@@ -10,6 +10,8 @@
 
 .postButtons button {
   border-radius: 10px;
+  border: none;
+  font-weight: 700;
   margin-left: 1rem;
   padding: 0.5rem 2rem;
 }
@@ -72,6 +74,8 @@
   align-self: flex-end;
   background-color: rgb(14, 185, 14);
   border-radius: 10px;
+  border: none;
+  font-weight: 700;
   margin-left: 1rem;
   margin: 1rem 0;
   padding: 0.5rem 2rem;
