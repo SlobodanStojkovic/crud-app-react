@@ -1,10 +1,10 @@
 .singleBlog {
-  padding: 3rem 3rem 0 3rem;
+  padding: 3rem 5rem 0 5rem;
   text-align: center;
 }
 
 .postButtons {
-  margin: 3rem;
+  margin: 3rem 0 0;
   text-align: end;
 }
 
@@ -28,6 +28,10 @@
 
 .blogDescription {
   padding: 2rem;
+}
+
+.blogBody {
+  text-align: justify;
 }
 
 .blogAuthor {

@@ -9,7 +9,6 @@ export const Header = () => {
           <span>CRUD App</span>
         </Link>
         <div className="links">
-          <Link to="/"> Home </Link>
           <Link to="/create"> Create blog</Link>
         </div>
       </nav>

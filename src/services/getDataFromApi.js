@@ -7,7 +7,6 @@ export const getDataFromApi = () => {
     })
 
     .then((data) => {
-      console.log(data);
       return data;
     });
 };
