@@ -1,11 +1,12 @@
 import { useState } from "react";
 import { useNavigate } from "react-router";
-import { postNewBlog } from "../../services/postNewBlog";
+import { postNewBlog } from "../../../services/postNewBlog";
+import "./Create.css";
 
 export const Create = () => {
   const [blogTitle, setBlogTitle] = useState("");
   const [blogDescription, setBlogDescription] = useState("");
-  const navigate = useNavigate;
+  const navigate = useNavigate();
 
   const blogTitleHandler = (e) => {
     setBlogTitle(e.target.value);
@@ -15,15 +16,15 @@ export const Create = () => {
     setBlogDescription(e.target.value);
   };
 
-  const addPost = () => {
+  const addPost = (event) => {
+    event.preventDefault();
     postNewBlog(blogTitle, blogDescription);
     navigate("/");
-    return;
   };
 
   return (
     <>
-      <form onSubmit={addPost}>
+      <form onSubmit={addPost} className="createPostForm">
         <input type="text" placeholder="Title" onChange={blogTitleHandler} />
         <input
           type="text"

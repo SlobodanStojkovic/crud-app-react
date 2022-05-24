@@ -3,12 +3,12 @@
 }
 
 .backLink {
-  text-decoration: none;
   color: black;
-  font-weight: bolder;
   font-size: 1.5em;
-  text-align: start;
+  font-weight: bolder;
   margin: 3rem;
+  text-align: start;
+  text-decoration: none;
 }
 
 .singleBlogPost {
@@ -16,14 +16,14 @@
 }
 
 .postButtons {
-  text-align: end;
   margin: 3rem;
+  text-align: end;
 }
 
 .postButtons button {
+  border-radius: 10px;
   margin-left: 1rem;
   padding: 0.5rem 2rem;
-  border-radius: 10px;
 }
 
 .postButtons button:nth-child(1) {
